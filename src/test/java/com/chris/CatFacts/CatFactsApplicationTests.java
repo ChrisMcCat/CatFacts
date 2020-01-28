@@ -1,4 +1,4 @@
-package com.Chris.CatFacts;
+package com.chris.CatFacts;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
@@ -24,4 +24,5 @@ class CatFactsApplicationTests {
 		assertNotNull(jsonResponse.getBody());
 		assertEquals(200, jsonResponse.getStatus());
 	}
+
 }

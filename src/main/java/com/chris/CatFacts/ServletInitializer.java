@@ -1,4 +1,4 @@
-package com.Chris.CatFacts;
+package com.chris.CatFacts;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
