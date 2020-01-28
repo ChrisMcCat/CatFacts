@@ -14,16 +14,4 @@ public class FactsService {
     public FactsService(FactsRepository factsRepository) {
         this.factsRepository = factsRepository;
     }
-
-    public Iterable<Facts> list() {
-        return factsRepository.findAll();
-    }
-
-    public Facts save(Facts facts) {
-        return factsRepository.save(facts);
-    }
-
-    public void save(List<Facts> facts) {
-        return factsRepository.save(facts);
-    }
 }

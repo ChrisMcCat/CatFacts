@@ -10,7 +10,7 @@ public class Facts {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private long id;
+    private Long id;
 
     @Column(name = "api_id")
     private String apiId;
